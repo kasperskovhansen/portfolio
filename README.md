@@ -1,4 +1,11 @@
-# Nuxt 3 Minimal Starter
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4f4a9171-ef98-4cb1-9717-b8a4a673677d/deploy-status)](https://app.netlify.com/sites/kasperskovdev/deploys)
+
+# Kasperskov.dev Portfolio
+This is the beginning of my new portfolio website built with Next 3 and Vue 3!
+
+You can view a [live demo here](https://kasperskovdev.netlify.app/)
+
+## Nuxt 3 Minimal Starter
 
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
 
