@@ -16,6 +16,10 @@ module.exports = {
       fontFamily: {
         mono: ["Poppins"],
       },
+      colors: {
+        themeBackground: "var(--background)",
+        themeText: "var(--text)",
+      },
     },
   },
   variants: {
