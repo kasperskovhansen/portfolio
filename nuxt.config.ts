@@ -1,16 +1,25 @@
-import { defineNuxtConfig } from "nuxt";
+import { defineNuxtConfig } from "nuxt3";
 
-// https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
+  modules: ["@nuxtjs/tailwindcss"],
+  compilerOptions: {
+    isCustomElement: true,
+  },
+  // your Tailwind css directory
   css: [
-    "@/assets/css/styles.css",
+    "@/assets/css/tailwind.css",
     "primevue/resources/themes/saga-blue/theme.css",
     "primevue/resources/primevue.css",
     "primeicons/primeicons.css",
   ],
   build: {
     postcss: {
-      postcssOptions: require("./postcss.config.js"),
+      postcssOptions: {
+        plugins: {
+          tailwindcss: {},
+          autoprefixer: {},
+        },
+      },
     },
   },
 });

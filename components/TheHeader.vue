@@ -123,7 +123,6 @@
           @click="isOpen = false"
           class="flex w-full items-center p-4 border-b"
         >
-          <Tailwind />
         </span>
 
         <ul class="divide-y">

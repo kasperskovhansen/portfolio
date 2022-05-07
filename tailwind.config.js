@@ -1,29 +1,17 @@
 module.exports = {
   mode: "jit",
   purge: [
-    "./assets/**/*.{css}",
-    "./components/*.{vue,js}",
     "./components/**/*.{vue,js}",
-    "./pages/*.vue",
-    "./layouts/*.vue",
+    "./layouts/**/*.vue",
     "./pages/**/*.vue",
+    "./app.vue",
     "./plugins/**/*.{js,ts}",
-    "./*.{vue,js,ts}",
     "./nuxt.config.{js,ts}",
   ],
   theme: {
-    extend: {
-      fontFamily: {
-        mono: ["Poppins"],
-      },
-      colors: {
-        themeBackground: "var(--background)",
-        themeText: "var(--text)",
-      },
-    },
+    extend: {},
   },
   variants: {
     extend: {},
   },
-  plugins: [],
 };
