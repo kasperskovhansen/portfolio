@@ -8,14 +8,9 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.7",
-    "nuxt": "3.0.0-rc.1",
+    "nuxt": "3.0.0-rc.2",
     "postcss": "^8.4.13",
-    "primeicons": "^5.0.0",
-    "primevue": "github:selucaciu/primevue#update-v3.11.0",
+    "primevue": "primevue",
     "tailwindcss": "^3.0.24"
-  },
-  "dependencies": {
-    "@nuxtjs/tailwindcss": "5.0.0-4",
-    "nuxt3": "^3.0.0-rc.2-27530889.9e5a3cd"
   }
 }

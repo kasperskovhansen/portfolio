@@ -5,6 +5,10 @@ This is the beginning of my new portfolio website built with Next 3 and Vue 3!
 
 You can view a [live demo here](https://kasperskovdev.netlify.app/)
 
+
+## There was a bug in primeicons so I moved it to assets/primeicons and fixed the bug
+[Open issue on this](https://github.com/primefaces/primeicons/issues/645#issuecomment-1093010031)
+
 ## Nuxt 3 Minimal Starter
 
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.

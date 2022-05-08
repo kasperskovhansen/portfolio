@@ -19,5 +19,25 @@
 <style>
 html {
   @apply bg-zinc-50 box-border p-0 m-0;
+  font-family: "primeicons" !important;
+}
+body {
+  font-family: "Avenir", "Arial", "Helvetica", sans-serif;
+  font-display: swap;
+}
+
+.main-area a {
+  @apply text-blue-500 duration-100 transition-all;
+  @apply hover:text-blue-800;
+}
+
+.theme-light {
+  --background: #f8f8f8;
+  --text: #313131;
+}
+
+.theme-dark {
+  --background: #313131;
+  --text: #f8f8f8;
 }
 </style>

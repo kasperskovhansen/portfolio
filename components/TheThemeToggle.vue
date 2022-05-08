@@ -13,4 +13,3 @@
 import { ref } from "vue";
 const darkMode = ref(true);
 </script>
->
