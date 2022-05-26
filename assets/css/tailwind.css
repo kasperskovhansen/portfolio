@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+h1:not(.navbar-header) {
+    @apply font-medium text-2xl mb-5;
+}
+
+h2 {
+    @apply font-light text-xl mb-3;
+}
+
+h3 {
+    @apply font-normal text-lg mb-3;
+}

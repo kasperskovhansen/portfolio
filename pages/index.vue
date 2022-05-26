@@ -1,6 +1,9 @@
 <script setup>
 import TheThemeToggle from "../components/TheThemeToggle.vue";
 import PButton from "../node_modules/primevue/button";
+// const { title } = await this.$content("first-blog-post")
+//   .only(["title"])
+//   .fetch();
 </script>
 
 <template>

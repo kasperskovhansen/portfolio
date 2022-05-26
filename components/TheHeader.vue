@@ -18,7 +18,7 @@
     >
       <!-- Header icon -->
       <NuxtLink to="/" class="header-title">
-        <h1 class="text-xl align-middle">
+        <h1 class="navbar-header text-xl align-middle">
           <span class="font-bold pr-1">KasperSkov</span
           ><span class="text-red-500 font-bold text-sm">.dev</span>
         </h1>
@@ -266,12 +266,13 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .navbar__item {
   @apply uppercase align-middle font-bold transition ease-linear duration-100 tracking-wide decoration-red-500 decoration-2;
   @apply hover:text-gray-800;
 }
-a.router-link-active:not(.header-title) {
+a.router-link-active:not(.header-title),
+.active {
   @apply underline underline-offset-2;
   @apply text-gray-800;
 }

@@ -1,0 +1,8 @@
+# This is my blog
+
+::alert{icon="ph:circle-wavy-warning-duotone"}
+#title
+This is an alert
+#default
+This is the default content of my alert!
+::
